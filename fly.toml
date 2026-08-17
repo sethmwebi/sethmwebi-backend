@@ -8,9 +8,6 @@ primary_region = 'jnb'
 
 [build]
 
-[deploy]
-  release_command = 'npx prisma migrate deploy'
-
 [http_service]
   internal_port = 4000
   force_https = true
