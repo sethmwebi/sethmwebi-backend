@@ -31,4 +31,4 @@ COPY --from=builder /app/package.json /app/package-lock.json ./
 
 EXPOSE 4000
 
-CMD ["sh", "-c", "npm run db:deploy && npm run start"]
+CMD ["npm","start"]

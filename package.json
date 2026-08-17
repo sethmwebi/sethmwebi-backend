@@ -17,7 +17,6 @@
     "build": "tsc",
     "dev": "ts-node-dev --respawn ./src/index.ts",
     "start": "node ./dist/index.js",
-    "postinstall": "prisma generate",
     "generate": "graphql-codegen",
     "test": "jest",
     "db:deploy": "npx prisma migrate deploy && npx prisma generate && npx prisma db seed"
