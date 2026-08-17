@@ -1,6 +1,5 @@
+import express from "express";
 import dotenv from "dotenv";
-dotenv.config();
-import express, { Request, Response } from "express";
 import { ApolloServer } from "@apollo/server";
 import { expressMiddleware } from "@as-integrations/express5";
 import { ApolloServerPluginDrainHttpServer } from "@apollo/server/plugin/drainHttpServer";
@@ -33,7 +32,7 @@ import { authenticateJwt } from "./lib/passport";
 import { ZodError } from "zod";
 import { makeExecutableSchema } from "@graphql-tools/schema";
 import depthLimit from "graphql-depth-limit";
-import { hostname } from "os";
+dotenv.config();
 
 const app = express();
 
