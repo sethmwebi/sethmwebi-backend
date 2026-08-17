@@ -13,7 +13,7 @@ RUN npm ci --legacy-peer-deps
 # ---- Builder ----
 FROM deps AS builder
 COPY . .
-RUN npm run compile
+RUN npm run build
 RUN cp src/schema.graphql dist/schema.graphql
 
 # ---- Production ----
