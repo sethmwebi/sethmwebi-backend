@@ -1,0 +1,100 @@
+[
+  {
+    "id": "25f868c5-c13f-497a-aa4c-1bf9af80857b",
+    "name": "React & Frontend",
+    "slug": "react-frontend",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "5ef65361-010a-4b57-84e8-eb6c573d1e1c",
+    "name": "Next.js",
+    "slug": "nextjs",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "ee605e79-61ac-4baf-be7d-cca259083367",
+    "name": "TypeScript",
+    "slug": "typescript",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "914f9d07-5643-49e6-ad7c-308ca9438472",
+    "name": "Node.js & Backend",
+    "slug": "nodejs-backend",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "de3ce411-f570-484b-ae96-419c1ff06e1c",
+    "name": "Go (Golang)",
+    "slug": "go",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "da890f1b-1228-4b40-99b5-405988eb2de0",
+    "name": "GraphQL",
+    "slug": "graphql",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "0c2ef1ac-6f13-45e8-8346-3147ef0cad23",
+    "name": "Database & PostgreSQL",
+    "slug": "database",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "ba5ceb1f-c49d-46fd-a720-3a7b449ab878",
+    "name": "DevOps & Docker",
+    "slug": "devops",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "60982ff1-dd3c-4f8f-a778-616a900ea4e2",
+    "name": "Full Stack Development",
+    "slug": "full-stack",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "42eda433-78d9-4794-a09a-c77124b0fcd4",
+    "name": "Web Development",
+    "slug": "web-development",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "fb548976-b6cf-4c9a-b82d-b253eae843ff",
+    "name": "Performance & Optimization",
+    "slug": "performance",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "64a1c7cd-e5be-4624-9226-746ab902eef4",
+    "name": "Authentication & Security",
+    "slug": "authentication",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "7145a51f-9df9-461d-bacd-50ae9a083d81",
+    "name": "Tutorials",
+    "slug": "tutorials",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  },
+  {
+    "id": "d76672f9-b5f3-44f4-a2c1-5b98d1d486b0",
+    "name": "Career & Freelancing",
+    "slug": "career",
+    "createdAt": "2026-06-25T13:21:25Z",
+    "updatedAt": "2026-06-25T13:21:25Z"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "03f274c6-bb77-41e7-8190-8a28b8054ad4",
+    "content": "This is exactly what I needed! The section about error handling with gqlgen was very helpful.",
+    "createdAt": "2026-06-23T14:05:14Z",
+    "updatedAt": "2026-06-23T14:05:14Z",
+    "slug": "building-scalable-apis-with-go-and-graphql",
+    "userId": "af211fbf-4456-4ca5-a6b2-c91fbc95eae8"
+  },
+  {
+    "id": "15bf35f8-e17f-4a24-a854-046afa9e5515",
+    "content": "Great article! Do you have a GitHub repo for the example code?",
+    "createdAt": "2026-06-24T14:05:14Z",
+    "updatedAt": "2026-06-24T14:05:14Z",
+    "slug": "building-scalable-apis-with-go-and-graphql",
+    "userId": "a59dd089-81bd-4286-a680-52f8201285b7"
+  },
+  {
+    "id": "efa06c29-e09b-4fe2-9600-f2fe6ffaf585",
+    "content": "The explanation of Server Actions is crystal clear. Thank you!",
+    "createdAt": "2026-06-24T14:05:14Z",
+    "updatedAt": "2026-06-24T14:05:14Z",
+    "slug": "mastering-nextjs-app-router-2026",
+    "userId": "b30aef99-4d6d-4bd7-82d3-755b529dc29a"
+  },
+  {
+    "id": "7790d32e-5f85-4e55-b557-477caf179500",
+    "content": "Would love to see a follow-up article on caching strategies with the new router.",
+    "createdAt": "2026-06-24T18:05:14Z",
+    "updatedAt": "2026-06-24T18:05:14Z",
+    "slug": "mastering-nextjs-app-router-2026",
+    "userId": "c4872d89-10ca-4c85-8849-7ad0bacbabd1"
+  },
+  {
+    "id": "fbd9f022-5571-4617-b7de-694698107e70",
+    "content": "The part about conditional types saved me so much time. Amazing write-up!",
+    "createdAt": "2026-06-24T20:05:14Z",
+    "updatedAt": "2026-06-24T20:05:14Z",
+    "slug": "typescript-best-practices-large-scale-applications",
+    "userId": "d5d4fd5b-b1cd-4730-8be0-c29d18332866"
+  },
+  {
+    "id": "9a2a1aeb-dc61-442e-8edd-5681de1cd8ef",
+    "content": "Very practical examples. I started applying these patterns immediately.",
+    "createdAt": "2026-06-25T02:05:14Z",
+    "updatedAt": "2026-06-25T02:05:14Z",
+    "slug": "typescript-best-practices-large-scale-applications",
+    "userId": "b1b89e30-43b8-4772-a733-1530ad41923b"
+  },
+  {
+    "id": "15541d07-20c9-4e24-8473-472e14401ffd",
+    "content": "Finally a clear guide for NextAuth v5! The middleware part was gold.",
+    "createdAt": "2026-06-25T04:05:14Z",
+    "updatedAt": "2026-06-25T04:05:14Z",
+    "slug": "authentication-strategies-nextauth-v5",
+    "userId": "a59dd089-81bd-4286-a680-52f8201285b7"
+  },
+  {
+    "id": "161c8509-8f7b-4335-b785-658b323767f6",
+    "content": "What do you think about using Lucia instead of NextAuth?",
+    "createdAt": "2026-06-25T06:05:14Z",
+    "updatedAt": "2026-06-25T06:05:14Z",
+    "slug": "authentication-strategies-nextauth-v5",
+    "userId": "af211fbf-4456-4ca5-a6b2-c91fbc95eae8"
+  },
+  {
+    "id": "8655076a-e89d-4091-a982-0e96e4890a11",
+    "content": "This Docker Compose setup is so clean. Saved me hours of configuration!",
+    "createdAt": "2026-06-25T08:05:14Z",
+    "updatedAt": "2026-06-25T08:05:14Z",
+    "slug": "dockerizing-full-stack-applications",
+    "userId": "b30aef99-4d6d-4bd7-82d3-755b529dc29a"
+  },
+  {
+    "id": "166152f4-a2f0-4262-ae5a-934d62a15335",
+    "content": "The JSONB features you mentioned convinced me to finally migrate from MongoDB.",
+    "createdAt": "2026-06-25T10:05:14Z",
+    "updatedAt": "2026-06-25T10:05:14Z",
+    "slug": "why-choose-postgresql-2026",
+    "userId": "c4872d89-10ca-4c85-8849-7ad0bacbabd1"
+  },
+  {
+    "id": "a5c83add-f463-40fd-b62b-caf91061ecf6",
+    "content": "Great article! Do you recommend any specific extensions for production use?",
+    "createdAt": "2026-06-25T12:05:14Z",
+    "updatedAt": "2026-06-25T12:05:14Z",
+    "slug": "why-choose-postgresql-2026",
+    "userId": "d5d4fd5b-b1cd-4730-8be0-c29d18332866"
+  }
+]

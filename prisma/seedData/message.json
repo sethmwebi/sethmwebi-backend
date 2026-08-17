@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4ec38960-915e-4f8a-83fe-f7aa88a28e81",
+    "name": "Seth Mwebi",
+    "email": "seth.mwebi@example.com",
+    "message": "Hi, I really like your blog posts on Go and GraphQL. Would love to collaborate on a project.",
+    "read": false,
+    "createdAt": "2026-06-23T13:13:25Z"
+  },
+  {
+    "id": "d6b53358-394c-4d74-ae0c-e1a10cc88735",
+    "name": "Mary Wambua",
+    "email": "mary.wambua@example.com",
+    "message": "Great article on Next.js App Router! When will you publish the one about authentication with NextAuth?",
+    "read": true,
+    "createdAt": "2026-06-24T13:13:25Z"
+  },
+  {
+    "id": "d3cf9768-42dd-4378-9000-89cf30b173b1",
+    "name": "Kevin Gikingo",
+    "email": "kevin.gikingo@example.com",
+    "message": "Hello, I have a question about Prisma + PostgreSQL performance. Can we have a quick call?",
+    "read": false,
+    "createdAt": "2026-06-25T01:13:25Z"
+  },
+  {
+    "id": "0ac5770a-681e-41d0-8ed8-54eba355b021",
+    "name": "Georgina Oduol",
+    "email": "georgina.oduol@example.com",
+    "message": "Thank you for the Tailwind CSS tips. They helped me a lot in my current project!",
+    "read": true,
+    "createdAt": "2026-06-25T08:13:25Z"
+  },
+  {
+    "id": "f63ce82e-66a6-48c2-9640-b43402e3aec0",
+    "name": "Elvine Moraa",
+    "email": "elvine.moraa@example.com",
+    "message": "Looking for a full-stack developer for a SaaS project. Your profile looks impressive.",
+    "read": false,
+    "createdAt": "2026-06-25T11:13:25Z"
+  },
+  {
+    "id": "ff7d80e5-c3c6-4d7e-ab21-0a79bd81220c",
+    "name": "Charity Kareithi",
+    "email": "charity.kareithi@example.com",
+    "message": "Hi! Just wanted to say your content is very helpful for beginners like me.",
+    "read": false,
+    "createdAt": "2026-06-25T12:43:25Z"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "70442beb-b3a2-4435-9ef5-57e26715c42a",
+    "url": "https://picsum.photos/id/64/400/400",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": null,
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": "d5d4fd5b-b1cd-4730-8be0-c29d18332866"
+  },
+  {
+    "id": "c438fcf5-af49-473f-98b2-25d70a63ad18",
+    "url": "https://picsum.photos/id/65/400/400",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": null,
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": "af211fbf-4456-4ca5-a6b2-c91fbc95eae8"
+  },
+  {
+    "id": "92ebb669-d04e-45a2-b7c3-57a56604cc96",
+    "url": "https://picsum.photos/id/66/400/400",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": null,
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": "a59dd089-81bd-4286-a680-52f8201285b7"
+  },
+  {
+    "id": "58615099-72e4-46f3-a38d-dc9624f6931f",
+    "url": "https://picsum.photos/id/67/400/400",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": null,
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": "b30aef99-4d6d-4bd7-82d3-755b529dc29a"
+  },
+  {
+    "id": "7c69b9a9-f264-4cbc-80b9-76e1372da847",
+    "url": "https://picsum.photos/id/68/400/400",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": null,
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": "c4872d89-10ca-4c85-8849-7ad0bacbabd1"
+  },
+  {
+    "id": "8e84aed7-6551-4a9e-b452-7cabdc500cfd",
+    "url": "https://picsum.photos/id/69/400/400",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": null,
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": "b1b89e30-43b8-4772-a733-1530ad41923b"
+  },
+  {
+    "id": "69c0e3cc-7027-46a1-9e18-bd5393a57c0e",
+    "url": "https://picsum.photos/id/20/800/600",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": "fcda9eea-5130-4f0a-adb0-0ad7bd54a952",
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": null
+  },
+  {
+    "id": "79e109d0-115a-4d21-98bd-d486ec60694d",
+    "url": "https://picsum.photos/id/201/800/600",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": "4cff8832-8a30-4bf7-a9a6-d69c52ce5fda",
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": null
+  },
+  {
+    "id": "d2af7f66-18f5-4f54-9ca2-3e4043088bf5",
+    "url": "https://picsum.photos/id/237/800/600",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": "933951cd-5c4e-4326-992d-254448e67826",
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": null
+  },
+  {
+    "id": "4581644c-61f2-4ae2-b15f-241a7d62d16b",
+    "url": "https://picsum.photos/id/251/800/600",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": "b4b73bee-b8be-468a-8f17-6e058c9434e0",
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": null
+  },
+  {
+    "id": "5e74daf1-6ca5-45dc-a53d-2b4331505e8d",
+    "url": "https://picsum.photos/id/180/800/600",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": "2c0cf4ec-c09f-43f4-bcb3-2fa665b0235b",
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": null
+  },
+  {
+    "id": "c94f905d-c387-473f-8f9b-826f8a4f1ebd",
+    "url": "https://picsum.photos/id/133/800/600",
+    "type": "image",
+    "createdAt": "2026-06-25T13:56:03Z",
+    "postId": "e576ace2-8abf-4108-8d86-de21539a9f53",
+    "updatedAt": "2026-06-25T13:56:03Z",
+    "userId": null
+  }
+]

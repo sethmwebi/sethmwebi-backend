@@ -1,0 +1,32 @@
+[
+  {
+    "identifier": "seth.mwebi@example.com",
+    "token": "verify_seth_abc123xyz",
+    "expires": "2026-07-02T12:52:01Z"
+  },
+  {
+    "identifier": "mary.wambua@example.com",
+    "token": "verify_mary_def456uvw",
+    "expires": "2026-07-02T12:52:01Z"
+  },
+  {
+    "identifier": "kevin.gikingo@example.com",
+    "token": "verify_kevin_ghi789rst",
+    "expires": "2026-07-02T12:52:01Z"
+  },
+  {
+    "identifier": "georgina.oduol@example.com",
+    "token": "verify_georgina_jkl012mno",
+    "expires": "2026-07-02T12:52:01Z"
+  },
+  {
+    "identifier": "elvine.moraa@example.com",
+    "token": "verify_elvine_pqr345stu",
+    "expires": "2026-07-02T12:52:01Z"
+  },
+  {
+    "identifier": "charity.kareithi@example.com",
+    "token": "verify_charity_vwx678yz",
+    "expires": "2026-07-02T12:52:01Z"
+  }
+]

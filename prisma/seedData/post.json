@@ -1,0 +1,68 @@
+[
+  {
+    "id": "fcda9eea-5130-4f0a-adb0-0ad7bd54a952",
+    "title": "Building Scalable APIs with Go and GraphQL",
+    "slug": "building-scalable-apis-with-go-and-graphql",
+    "summary": "Learn how to build high-performance, type-safe GraphQL APIs using Golang and gqlgen with PostgreSQL. Covers schema design, resolvers, authentication, and production optimization techniques.",
+    "content": "In this comprehensive guide, we explore how to build high-performance GraphQL APIs using Golang, gqlgen, and PostgreSQL. Learn about schema design, resolvers, authentication, and optimization techniques that power modern backend systems.",
+    "authorId": "d5d4fd5b-b1cd-4730-8be0-c29d18332866",
+    "createdAt": "2026-06-22T13:51:30Z",
+    "imageUrl": "https://picsum.photos/id/20/800/600",
+    "updatedAt": "2026-06-22T13:51:30Z"
+  },
+  {
+    "id": "4cff8832-8a30-4bf7-a9a6-d69c52ce5fda",
+    "title": "Mastering the Next.js App Router in 2026",
+    "slug": "mastering-nextjs-app-router-2026",
+    "summary": "A complete deep dive into Next.js 15 App Router, Server Components, Server Actions, and advanced patterns that every modern React developer should master.",
+    "content": "A deep dive into the new App Router, Server Components, Server Actions, and advanced patterns every React developer should know. Includes real-world examples and performance benchmarks.",
+    "authorId": "af211fbf-4456-4ca5-a6b2-c91fbc95eae8",
+    "createdAt": "2026-06-23T13:51:30Z",
+    "imageUrl": "https://picsum.photos/id/201/800/600",
+    "updatedAt": "2026-06-23T13:51:30Z"
+  },
+  {
+    "id": "933951cd-5c4e-4326-992d-254448e67826",
+    "title": "TypeScript Best Practices for Large Scale Applications",
+    "slug": "typescript-best-practices-large-scale-applications",
+    "summary": "Advanced TypeScript patterns, generics, utility types, and architecture strategies to maintain type safety and scalability in large codebases.",
+    "content": "Learn advanced TypeScript patterns including generics, utility types, module organization, and how to maintain type safety in growing codebases.",
+    "authorId": "a59dd089-81bd-4286-a680-52f8201285b7",
+    "createdAt": "2026-06-24T13:51:30Z",
+    "imageUrl": "https://picsum.photos/id/237/800/600",
+    "updatedAt": "2026-06-24T13:51:30Z"
+  },
+  {
+    "id": "b4b73bee-b8be-468a-8f17-6e058c9434e0",
+    "title": "Authentication Strategies with NextAuth.js v5",
+    "slug": "authentication-strategies-nextauth-v5",
+    "summary": "Everything you need to know about implementing secure authentication in Next.js using NextAuth.js v5, Prisma, and PostgreSQL.",
+    "content": "Complete guide to implementing secure authentication using NextAuth.js, Prisma, and PostgreSQL. Covers credentials, OAuth, sessions, and middleware.",
+    "authorId": "b30aef99-4d6d-4bd7-82d3-755b529dc29a",
+    "createdAt": "2026-06-25T01:51:30Z",
+    "imageUrl": "https://picsum.photos/id/251/800/600",
+    "updatedAt": "2026-06-25T01:51:30Z"
+  },
+  {
+    "id": "2c0cf4ec-c09f-43f4-bcb3-2fa665b0235b",
+    "title": "Dockerizing Full Stack Applications",
+    "slug": "dockerizing-full-stack-applications",
+    "summary": "Step-by-step guide to containerizing React, Go, and PostgreSQL applications using Docker and Docker Compose for production environments.",
+    "content": "Step-by-step tutorial on containerizing React + Go + PostgreSQL applications using Docker Compose and best practices for production.",
+    "authorId": "c4872d89-10ca-4c85-8849-7ad0bacbabd1",
+    "createdAt": "2026-06-25T07:51:30Z",
+    "imageUrl": "https://picsum.photos/id/180/800/600",
+    "updatedAt": "2026-06-25T07:51:30Z"
+  },
+  {
+    "id": "e576ace2-8abf-4108-8d86-de21539a9f53",
+    "title": "Why You Should Choose PostgreSQL in 2026",
+    "slug": "why-choose-postgresql-2026",
+    "summary": "Exploring PostgreSQL’s latest features and why it remains the best database choice for modern web applications in 2026.",
+    "content": "Exploring the latest features in PostgreSQL and why it remains the best choice for modern web applications compared to other databases.",
+    "authorId": "b1b89e30-43b8-4772-a733-1530ad41923b",
+    "createdAt": "2026-06-25T12:51:30Z",
+    "imageUrl": "https://picsum.photos/id/133/800/600",
+    "updatedAt": "2026-06-25T12:51:30Z"
+  }
+]

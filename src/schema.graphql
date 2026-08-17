@@ -1,0 +1,288 @@
+directive @auth(role: Role = USER) on OBJECT | FIELD_DEFINITION
+
+type Query {
+  me: User @auth
+  users: [User!]! @auth(role: ADMIN)
+  getUserById(id: ID!): User @auth
+  getPostsByUserId(id: ID!): [Post!]! @auth
+  getCommentsByUserId(id: ID!): [Comment!]! @auth
+  getLikesByUserId(id: ID!): [Like!]! @auth
+  getMediaByUserId(id: ID!): [Media!]! @auth
+  account: Account! @auth
+  post(id: ID!): Post @auth
+  posts: [Post!]!
+  comments: [Comment!]!
+  comment(id: ID!): Comment! @auth
+  categories: [Category!]! @auth
+  category(id: ID!): Category! @auth
+  getPostCategories(postId: String!): [PostCategory!]! @auth
+  like(id: ID!): Like! @auth
+  getPostTags(postId: ID!): [Tag!]! @auth
+  """
+  Tags is different from post tags
+  """
+  tags: [Tag!]! @auth
+  getTagById(tagId: ID!): Tag @auth
+  getCommentsBySlug(slug: String!): [Comment!]!
+  getMessages: [Message!]! @auth(role: ADMIN)
+  getMessage(id: ID!): Message! @auth(role: ADMIN)
+  getUnreadMessages: [Message!]! @auth(role: ADMIN)
+  getPostBySlug(slug: String!): Post
+}
+
+type Mutation {
+  register(data: RegisterInput!): RegisterPayload!
+  login(data: LoginInput!): LoginPayload
+  loginWithGoogle(idToken: String!): LoginPayload!
+  refreshToken(refreshToken: String!): LoginPayload!
+  updateUserProfile(id: ID!, data: UpdateUserProfileInput!): User @auth
+  createUser(data: CreateUserInput!): User! @auth(role: ADMIN)
+  deleteUser(id: ID!): Boolean! @auth(role: ADMIN)
+  createPost(data: CreatePostInput!): Post! @auth
+  updatePost(id: ID!, data: UpdatePostInput!): Post @auth
+  deletePost(id: ID!): Boolean! @auth
+  createComment(data: CreateCommentInput!): Comment! @auth
+  updateComment(id: ID!, data: UpdateCommentInput!): Comment @auth
+  deleteComment(id: ID!): Boolean! @auth
+  createLike(data: CreateLikeInput!): Like! @auth
+  deleteLike(id: ID!): Boolean! @auth
+  createCategory(data: CreateCategoryInput!): Category! @auth
+  createPostCategory(data: CreatePostCategoryInput!): PostCategory! @auth
+  createPostTag(data: CreatePostTagInput!): PostTag! @auth
+  createTag(data: CreateTagInput!): Tag! @auth
+  createMedia(data: CreateMediaInput!): Media! @auth
+  createMessage(data: CreateMessageInput!): Message!
+  markMessageAsRead(id: ID!): Message! @auth(role: ADMIN)
+  deleteMessage(id: ID!): Boolean! @auth(role: ADMIN)
+}
+
+enum Role {
+  ADMIN
+  SUPERADMIN
+  USER
+}
+
+type User {
+  id: ID!
+  name: String
+  email: String!
+  role: Role!
+  emailVerified: String
+  image: String
+  accounts: [Account]
+  posts: [Post]
+  comments: [Comment]
+  likes: [Like]
+  media: [Media]
+  createdAt: String!
+  updatedAt: String!
+}
+
+type Account {
+  userId: ID!
+  type: String!
+  provider: String!
+  providerAccountId: String!
+  refreshToken: String
+  accessToken: String
+  expiresAt: Int
+  tokenType: String
+  scope: String
+  idToken: String
+  sessionState: String
+  createdAt: String!
+  updatedAt: String!
+}
+
+type VerificationToken {
+  identifier: String!
+  token: String!
+  expires: String!
+}
+
+type Post {
+  id: ID!
+  title: String!
+  content: String!
+  imageUrl: String
+  slug: String!
+  summary: String
+  createdAt: String!
+  updatedAt: String!
+  author: User
+  user: User
+  comments: [Comment]
+  likes: [Like]
+  categories: [Category]
+  tags: [Tag]
+  media: [Media]
+}
+
+type PostCategory {
+  postId: String!
+  categoryId: String!
+}
+
+type Comment {
+  id: ID!
+  content: String!
+  createdAt: String!
+  post: Post
+  user: User
+  parent: Comment
+  replies: [Comment!]
+}
+
+type Like {
+  id: ID!
+  createdAt: String!
+  post: Post
+  user: User
+}
+
+type Category {
+  id: ID!
+  name: String!
+  slug: String
+  posts: [Post]
+}
+
+type Tag {
+  id: ID!
+  name: String!
+  slug: String!
+  posts: [Post]
+}
+
+type PostTag {
+  postId: String!
+  tagId: String!
+}
+
+type Media {
+  id: ID!
+  url: String!
+  type: String!
+  post: Post
+  user: User
+}
+
+type RegisterPayload {
+  user: User!
+}
+
+type LoginPayload {
+  token: String!
+  refreshToken: String!
+  user: User!
+}
+
+input RegisterInput {
+  name: String
+  email: String!
+  password: String!
+}
+
+input LoginInput {
+  email: String!
+  password: String!
+}
+
+input CreateUserInput {
+  name: String
+  email: String!
+  emailVerified: String
+  image: String
+  role: Role
+}
+
+input UpdateUserProfileInput {
+  name: String
+  email: String
+  image: String
+  role: Role
+}
+
+input CreatePostInput {
+  title: String!
+  content: String!
+  slug: String!
+  summary: String
+  imageUrl: String
+  authorId: ID!
+}
+
+input CreatePostCategoryInput {
+  postId: String!
+  categoryId: String!
+}
+
+input CreatePostTagInput {
+  postId: String!
+  tagId: String!
+}
+
+type PostTag {
+  postId: String!
+  tagId: String!
+}
+
+type Message {
+  id: ID!
+  name: String!
+  email: String!
+  message: String!
+  read: String!
+  createdAt: String!
+}
+
+input UpdatePostInput {
+  title: String
+  content: String
+  imageUrl: String
+  categoryId: ID
+  tags: [ID!]
+}
+
+input CreateCommentInput {
+  content: String!
+  slug: String!
+  userId: ID!
+  parentId: ID
+}
+
+input UpdateCommentInput {
+  content: String!
+}
+
+input CreateLikeInput {
+  postId: ID!
+  userId: ID!
+}
+
+input CreateCategoryInput {
+  name: String!
+  slug: String!
+}
+
+input CreateTagInput {
+  name: String!
+  slug: String!
+}
+
+input CreateMediaInput {
+  url: String!
+  type: String!
+  postId: ID
+  userId: ID
+}
+
+input CreateMessageInput{
+  name: String!
+  email: String!
+  message: String!
+}
+
+input UpdateMessageInput {
+  read: Boolean
+}

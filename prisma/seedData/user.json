@@ -1,0 +1,62 @@
+[
+  {
+    "id": "d5d4fd5b-b1cd-4730-8be0-c29d18332866",
+    "name": "Seth Mwebi",
+    "email": "seth.mwebi@example.com",
+    "image": null,
+    "role": "SUPERADMIN",
+    "createdAt": "2026-06-25T08:38:14Z",
+    "emailVerified": null,
+    "updatedAt": "2026-06-25T08:38:14Z"
+  },
+  {
+    "id": "af211fbf-4456-4ca5-a6b2-c91fbc95eae8",
+    "name": "Mary Wambua",
+    "email": "mary.wambua@example.com",
+    "image": null,
+    "role": "ADMIN",
+    "createdAt": "2026-06-25T08:38:14Z",
+    "emailVerified": null,
+    "updatedAt": "2026-06-25T08:38:14Z"
+  },
+  {
+    "id": "a59dd089-81bd-4286-a680-52f8201285b7",
+    "name": "Kevin Gikingo",
+    "email": "kevin.gikingo@example.com",
+    "image": null,
+    "role": "USER",
+    "createdAt": "2026-06-25T08:38:14Z",
+    "emailVerified": null,
+    "updatedAt": "2026-06-25T08:38:14Z"
+  },
+  {
+    "id": "b30aef99-4d6d-4bd7-82d3-755b529dc29a",
+    "name": "Georgina Oduol",
+    "email": "georgina.oduol@example.com",
+    "image": null,
+    "role": "USER",
+    "createdAt": "2026-06-25T08:38:14Z",
+    "emailVerified": null,
+    "updatedAt": "2026-06-25T08:38:14Z"
+  },
+  {
+    "id": "c4872d89-10ca-4c85-8849-7ad0bacbabd1",
+    "name": "Elvine Moraa",
+    "email": "elvine.moraa@example.com",
+    "image": null,
+    "role": "USER",
+    "createdAt": "2026-06-25T08:38:14Z",
+    "emailVerified": null,
+    "updatedAt": "2026-06-25T08:38:14Z"
+  },
+  {
+    "id": "b1b89e30-43b8-4772-a733-1530ad41923b",
+    "name": "Charity Kareithi",
+    "email": "charity.kareithi@example.com",
+    "image": null,
+    "role": "USER",
+    "createdAt": "2026-06-25T08:38:14Z",
+    "emailVerified": null,
+    "updatedAt": "2026-06-25T08:38:14Z"
+  }
+]

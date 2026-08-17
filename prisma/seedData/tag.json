@@ -1,0 +1,142 @@
+[
+  {
+    "id": "b31ac532-301e-4b3a-a7ef-631fbb160038",
+    "name": "React",
+    "slug": "react",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "4fdb6e20-3987-4a4a-823b-3c93f90dea0e",
+    "name": "Next.js",
+    "slug": "nextjs",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "b23a3177-98a3-4086-979a-47fbee790875",
+    "name": "TypeScript",
+    "slug": "typescript",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "4044f792-a185-4a8a-b7ce-0e8acbeb53de",
+    "name": "Node.js",
+    "slug": "nodejs",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "ac703b36-d364-49a6-989e-48e3313ecb1d",
+    "name": "Go",
+    "slug": "go",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "8771f772-b071-434f-bcc4-e663252cac39",
+    "name": "GraphQL",
+    "slug": "graphql",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "93c7d424-11fd-4c91-98aa-498d08ff2928",
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "1b6cdeee-fb08-4e30-9798-3feaf5476484",
+    "name": "Prisma",
+    "slug": "prisma",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "fc78c437-80c6-4473-a3be-e48e40145509",
+    "name": "Docker",
+    "slug": "docker",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "f403b3c5-2e24-4f84-95c5-889ed16e7cd2",
+    "name": "Tailwind CSS",
+    "slug": "tailwind-css",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "019ccb5d-e469-49cb-9ea4-d2af7d9fca74",
+    "name": "JavaScript",
+    "slug": "javascript",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "4e9fdf69-5fed-430d-9a26-04397e749831",
+    "name": "Frontend",
+    "slug": "frontend",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "d6639f58-45e0-434b-b62d-3f9cafed2db7",
+    "name": "Backend",
+    "slug": "backend",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "06896b18-ccbb-46ef-8945-5f4f303c0b2b",
+    "name": "Full Stack",
+    "slug": "full-stack",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "1b9189fe-7d2a-47a8-862b-543b21dad196",
+    "name": "API Development",
+    "slug": "api-development",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "294bb5e7-5b4f-4ba4-a7c5-29c35190ecd7",
+    "name": "Authentication",
+    "slug": "authentication",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "5ff04362-f9e2-4525-b5a6-fda60d39028e",
+    "name": "Performance",
+    "slug": "performance",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "a65a5267-f361-431e-b67c-f7ff8a12abea",
+    "name": "DevOps",
+    "slug": "devops",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "de95bc0f-0c8f-47f6-861f-b4afb87c0be9",
+    "name": "Web Development",
+    "slug": "web-development",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  },
+  {
+    "id": "073b91b2-4f67-4ac8-9b8a-ae0eab626710",
+    "name": "Tutorial",
+    "slug": "tutorial",
+    "createdAt": "2026-06-25T13:06:26Z",
+    "updatedAt": "2026-06-25T13:06:26Z"
+  }
+]
