@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for sethmwebi-backend on 2026-08-17T10:08:35Z
+# fly.toml app configuration file generated for sethmwebi-backend on 2026-08-17T10:55:08Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'sethmwebi-backend'
-primary_region = 'fra'
+primary_region = 'jnb'
 
 [build]
 
@@ -12,7 +12,7 @@ primary_region = 'fra'
   release_command = 'npx prisma migrate deploy'
 
 [http_service]
-  internal_port = 8080
+  internal_port = 4000
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
