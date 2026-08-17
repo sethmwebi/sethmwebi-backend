@@ -33,6 +33,7 @@ import { authenticateJwt } from "./lib/passport";
 import { ZodError } from "zod";
 import { makeExecutableSchema } from "@graphql-tools/schema";
 import depthLimit from "graphql-depth-limit";
+import { hostname } from "os";
 
 const app = express();
 
@@ -123,11 +124,16 @@ async function startApolloServer() {
     }),
   );
 
+  const PORT = Number(process.env.PORT) || 4000;
+
   await new Promise<void>((resolve) =>
-    httpServer.listen({ port: 4000 }, resolve),
+    httpServer.listen({ port: PORT, host: "0.0.0.0" }, resolve),
   );
 
-  console.log(`🚀 Server ready at http://localhost:4000/`);
+  console.log(`🚀 Server ready at http://localhost:${PORT}/`);
 }
 
-startApolloServer();
+startApolloServer().catch((err) => {
+  console.error("Failed to start server:", err);
+  process.exit(1);
+});
